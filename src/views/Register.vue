@@ -35,7 +35,7 @@
     </main>
 </template>
 
-<script lang="ts">
+<script>
 import { reactive } from "vue";
 import axios from 'axios';
 import { useRouter } from "vue-router";

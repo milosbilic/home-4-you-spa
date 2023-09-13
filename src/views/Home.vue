@@ -5,7 +5,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
     import { ref } from "vue";
     
     export default {
@@ -13,7 +13,7 @@
         setup() {
             const message = ref('You are not logged in');
 
-            onMounted()
+            // onMounted()
 
             return {
                 message
