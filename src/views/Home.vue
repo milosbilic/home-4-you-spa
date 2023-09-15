@@ -13,7 +13,7 @@
         setup() {
             const message = ref('You are not logged in');
 
-            onMounted()
+            // onMounted()
 
             return {
                 message
